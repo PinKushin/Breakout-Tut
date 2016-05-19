@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="12" version="2.0" version_name="Godot Engine v2.0.stable.official">
+	<ext_resource path="res://Sprites/paddle.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://Sprites/ball.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://Sprites/brick.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://Scripts/Paddle.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://Scripts/ball.gd" type="Script" index="2"></ext_resource>
+	<resource type="RectangleShape2D" path="local://5">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 40, 4 </vector2>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://1">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 4, 4 </vector2>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://2">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			0, 384, -32, 384, -32, -32, 0, 0 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://3">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			0, 0, -32, -32, 672, -32, 640, 0 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://4">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			640, 0, 672, -32, 672, 384, 640, 384 </vector2_array>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://6">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 30, 14 </vector2>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="68">
+				<string> "World" </string>
+				<string> "Node2D" </string>
+				<string> "Paddle" </string>
+				<string> "transform/pos" </string>
+				<string> "input/pickable" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "collision/margin" </string>
+				<string> "script/script" </string>
+				<string> "KinematicBody2D" </string>
+				<string> "Sprite" </string>
+				<string> "transform/scale" </string>
+				<string> "texture" </string>
+				<string> "__meta__" </string>
+				<string> "Collision" </string>
+				<string> "shape" </string>
+				<string> "trigger" </string>
+				<string> "_update_shape_index" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "Ball" </string>
+				<string> "mode" </string>
+				<string> "mass" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "gravity_scale" </string>
+				<string> "custom_integrator" </string>
+				<string> "continuous_cd" </string>
+				<string> "contacts_reported" </string>
+				<string> "contact_monitor" </string>
+				<string> "sleeping" </string>
+				<string> "can_sleep" </string>
+				<string> "velocity/linear" </string>
+				<string> "velocity/angular" </string>
+				<string> "damp_override/linear" </string>
+				<string> "damp_override/angular" </string>
+				<string> "RigidBody2D" </string>
+				<string> "walls" </string>
+				<string> "shapes/1/shape" </string>
+				<string> "shapes/1/transform" </string>
+				<string> "shapes/1/trigger" </string>
+				<string> "shapes/2/shape" </string>
+				<string> "shapes/2/transform" </string>
+				<string> "shapes/2/trigger" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "StaticBody2D" </string>
+				<string> "build_mode" </string>
+				<string> "polygon" </string>
+				<string> "shape_range" </string>
+				<string> "CollisionPolygon2D" </string>
+				<string> "Bricks" </string>
+				<string> "RedBrick" </string>
+				<string> "RedBrick1" </string>
+				<string> "RedBrick2" </string>
+				<string> "RedBrick3" </string>
+				<string> "RedBrick4" </string>
+				<string> "RedBrick5" </string>
+				<string> "RedBrick6" </string>
+				<string> "RedBrick7" </string>
+				<string> "RedBrick8" </string>
+				<string> "RedBrick9" </string>
+				<string> "RedBrick10" </string>
+				<string> "RedBrick11" </string>
+				<string> "RedBrick12" </string>
+				<string> "RedBrick13" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 52 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="1044"> 				-1, -1, 1, 0, -1, 0, 0, 0, 0, 12, 2, -1, 9, 3, 0, 4, 1, 5, 2, 6, 3, 7, 1, 8, 4, 9, 4, 10, 5, 11, 6, 0, 1, 0, 13, 13, -1, 3, 14, 7, 15, 8, 16, 9, 0, 1, 0, 21, 17, -1, 4, 18, 2, 19, 1, 20, 10, 16, 11, 0, 0, 0, 38, 22, -1, 23, 3, 12, 4, 1, 5, 13, 6, 3, 7, 1, 8, 4, 9, 4, 23, 14, 24, 15, 25, 16, 26, 15, 27, 16, 28, 1, 29, 10, 30, 4, 31, 17, 32, 1, 33, 17, 34, 18, 35, 16, 36, 16, 37, 16, 11, 19, 0, 4, 0, 13, 13, -1, 3, 14, 20, 15, 21, 16, 22, 0, 4, 0, 21, 17, -1, 4, 18, 13, 19, 1, 20, 10, 16, 23, 0, 0, 0, 48, 39, -1, 16, 4, 1, 5, 24, 6, 3, 7, 1, 40, 25, 41, 3, 42, 1, 43, 26, 44, 3, 45, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 0, 7, 0, 52, 17, -1, 5, 49, 10, 50, 28, 51, 29, 19, 1, 16, 30, 0, 0, 0, 1, 53, -1, 0, 0, 9, 0, 48, 54, -1, 12, 3, 31, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 10, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 10, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 55, -1, 12, 3, 37, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 13, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 13, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 56, -1, 12, 3, 38, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 16, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 16, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 57, -1, 12, 3, 39, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 19, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 19, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 58, -1, 12, 3, 40, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 22, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 22, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 59, -1, 12, 3, 41, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 25, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 25, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 60, -1, 12, 3, 42, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 28, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 28, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 61, -1, 12, 3, 43, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 31, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 31, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 62, -1, 12, 3, 44, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 34, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 34, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 63, -1, 12, 3, 45, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 37, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 37, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 64, -1, 12, 3, 46, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 40, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 40, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 65, -1, 12, 3, 47, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 43, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 43, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 66, -1, 12, 3, 48, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 46, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 46, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0, 9, 0, 48, 67, -1, 12, 3, 49, 4, 1, 5, 32, 6, 3, 7, 1, 8, 4, 9, 4, 46, 27, 47, 16, 25, 15, 26, 16, 16, 33, 1, 53, 49, 0, 13, 13, -1, 3, 14, 7, 15, 34, 16, 35, 0, 49, 0, 21, 17, -1, 4, 18, 32, 19, 1, 20, 10, 16, 36, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="50" shared="false">
+				<vector2> 320, 320 </vector2>
+				<bool> False </bool>
+				<resource  resource_type="Shape2D" path="local://5">  </resource>
+				<matrix32> 1, 0, 0, 1, 0, 0 </matrix32>
+				<int> 1 </int>
+				<real> 0.08 </real>
+				<resource  external="0">  </resource>
+				<vector2> 2, 2 </vector2>
+				<resource  external="1">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<int> 0 </int>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 320, 288 </vector2>
+				<resource  resource_type="Shape2D" path="local://1">  </resource>
+				<int> 2 </int>
+				<real> 1 </real>
+				<real> 0 </real>
+				<bool> True </bool>
+				<vector2> 200, -200 </vector2>
+				<resource  external="2">  </resource>
+				<vector2> 4, 4 </vector2>
+				<resource  external="3">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="Shape2D" path="local://2">  </resource>
+				<resource  resource_type="Shape2D" path="local://3">  </resource>
+				<resource  resource_type="Shape2D" path="local://4">  </resource>
+				<vector2> 0, 0 </vector2>
+				<vector2_array  len="8"> 					0, 384, 0, 0, 640, 0, 640, 384, 672, 384, 672, -32, -32, -32, -32, 384 </vector2_array>
+				<vector2> 0, 2 </vector2>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 320, 64 </vector2>
+				<resource  resource_type="Shape2D" path="local://6">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="4">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 448, 96 </vector2>
+				<vector2> 384, 96 </vector2>
+				<vector2> 320, 96 </vector2>
+				<vector2> 192, 96 </vector2>
+				<vector2> 256, 96 </vector2>
+				<vector2> 192, 64 </vector2>
+				<vector2> 448, 64 </vector2>
+				<vector2> 384, 64 </vector2>
+				<vector2> 256, 64 </vector2>
+				<vector2> 512, 64 </vector2>
+				<vector2> 512, 96 </vector2>
+				<vector2> 128, 64 </vector2>
+				<vector2> 128, 96 </vector2>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
